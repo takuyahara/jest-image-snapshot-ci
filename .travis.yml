@@ -13,7 +13,7 @@ script:
 - yarn test-image
 # Push diff images
 - git subtree add --prefix __diff_output__ origin __diff_output__ || mkdir __diff_output__
-- rm -rf __diff_output__ && mv __tests-image__ __diff_output__
+- rm -rf __diff_output__ && mv __tests_image__ __diff_output__
 - find __diff_output__ -regex '^.*/__image_snapshots__/__diff_output__$' | xargs -I {} git add {}
 - echo "https://github.com/takuyahara/jest-image-snapshot-ci/tree/$TRAVIS_COMMIT" > __diff_output__/README.md && git add __diff_output__/README.md
 - git commit -m "$TRAVIS_COMMIT_MESSAGE"
