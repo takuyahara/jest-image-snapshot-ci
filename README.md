@@ -1,1 +1,1 @@
-https://github.com/takuyahara/jest-image-snapshot-ci/tree/49cd0f0b2c2f85a013991ffc7bcaa14ff456e6a0
+https://github.com/takuyahara/jest-image-snapshot-ci/tree/457faa397d84816b97fddfd422f451e780115a2b
