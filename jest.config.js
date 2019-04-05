@@ -42,8 +42,4 @@ module.exports = {
     "<rootDir>/node_modules/jest-watch-typeahead/filename.js",
     "<rootDir>/node_modules/jest-watch-typeahead/testname.js"
   ],
-  preset: 'jest-puppeteer',
-  setupFiles: [
-    './setupTests.js'
-  ]
 }
